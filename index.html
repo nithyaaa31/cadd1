@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Apply your student application</h1>
+        <form method="post">
+            <div>
+                <p>Enter your name</p>
+                <input type="text" name="username" placeholder="Enter your username">
+            </div>
+            <div>
+                <p>Enter your password</p>
+                <input type="password" name="password" placeholder="Enter your password">
+            </div>
+            <div>
+            <p>Enter your gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Make sure you subscribe for future updates</label>
+            </div>
+            <div>
+                <label for="comment">Enter your comment below</label>
+                <br>
+                <textarea name="comment" rows="4" cols="50">
+                </textarea>
+            </div>
+            <div>
+                <p> select your favourite fruit</p>
+                <select for="fruits">
+                    <option value="apple">Apple</option>
+                     <option value="cherry">Cherry</option>
+                      <option value="banana">Banana</option>
+                       <option value="grapes">Grapes</option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>
